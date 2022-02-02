@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-string PrivetMassiv = "Hello";
+Console.WriteLine("Введите текст");
+string PrivetMassiv = Console.ReadLine();
 
 for (int j = PrivetMassiv.Length-1; j >= 0; j--)
 {
+
    Console.Write(PrivetMassiv[j]);
    
 }
